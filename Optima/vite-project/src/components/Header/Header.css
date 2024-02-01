@@ -1,0 +1,28 @@
+.header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:7%;
+  }
+  .header-nav-ul{
+    display:flex ;
+    flex-direction: row;
+    gap: 50%;
+  }
+  .logo{
+    background-color:rgb(172, 172, 172);
+    width: 100px;
+    /* overflow: hidden; */
+    padding: 1%;
+
+  }
+
+  .header-nav-ul-li-a{
+    color: rgb(61, 61, 61);
+  }
+  .header-logo-img{
+    max-width: 100%;
+    height: auto;
+  }

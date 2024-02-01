@@ -1,0 +1,12 @@
+.info-form-problem-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .info-block,
+  .form-block,
+  .problem-block {
+    flex-basis: 30%;
+  }

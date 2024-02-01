@@ -1,0 +1,18 @@
+.phrase-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height:50ch ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;  
+    
+  }
+  
+  .phrase-button:hover {
+    background-color: #cc0000;
+  }

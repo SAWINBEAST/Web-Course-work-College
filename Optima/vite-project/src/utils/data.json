@@ -1,0 +1,58 @@
+{
+    "builders": [
+      {
+        "id": 1,
+        "name": "Builder 1",
+        "complexes": [
+          {
+            "id": 1,
+            "name": "Complex 1",
+            "description": "Description of Complex 1",
+            "apartments": [
+              {
+                "id": 1,
+                "type": "2-room",
+                "area": 75,
+                "price": 150000
+              },
+              {
+                "id": 2,
+                "type": "3-room",
+                "area": 100,
+                "price": 200000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "id": 1,
+        "builderId": 1,
+        "complexId": 1,
+        "apartmentId": 1
+      },
+      {
+        "id": 2,
+        "builderId": 1,
+        "complexId": 1,
+        "apartmentId": 2
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "comment": "Great service!",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "comment": "Very satisfied with my purchase.",
+        "rating": 4
+      }
+    ]
+  }
+  

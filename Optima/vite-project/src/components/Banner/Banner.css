@@ -1,0 +1,17 @@
+.banner {
+    background-image: url('../public/длясайта.jpg');
+    opacity: 0.5;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    height:50ch ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .search{
+    margin:1%
+  }

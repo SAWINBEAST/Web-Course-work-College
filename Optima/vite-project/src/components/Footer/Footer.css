@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-info,
+  .site-map,
+  .social-links,
+  .copyright {
+    flex-basis: 25%;
+  }
+  
